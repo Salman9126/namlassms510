@@ -40,6 +40,13 @@
                     </div>
                 </li>
                 <li>
+                    <a href="<?php echo base_url('admin/banners');?>">
+                        <span class="menu-icon"><i class="fa fa-envelope"></i></span>
+                        <span class="menu-text">Manage Banner's</span>
+                        <span class="menu-badge"><span class="badge vd_bg-red">78</span></span>
+                    </a>
+                </li>
+                <li>
                     <a href="<?php echo base_url('admin/flats');?>">
                         <span class="menu-icon"><i class="fa fa-envelope"></i></span>
                         <span class="menu-text">Manage Flat's</span>

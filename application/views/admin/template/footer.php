@@ -141,6 +141,14 @@ if($this->uri->segment(2) == 'flats'){
 <!-- Page Javascript -->
 <?php
 }
+if($this->uri->segment(2) == 'banners'){
+?>
+<!-- Page Javascript -->
+<!-- Specific Page Scripts Put Here -->
+<script type="text/javascript" src="<?php echo base_url();?>assets/backend/page-js/banners.js"></script>
+<!-- Page Javascript -->
+<?php
+}
 ?>	
 </body>
 </html>
